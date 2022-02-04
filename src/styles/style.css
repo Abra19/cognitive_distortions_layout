@@ -10,6 +10,7 @@
   --darkblur: #908d8b;
   --brown: #b09a81;
   --blue: #1085c5;
+  --blackblur: #212529;
 }
 
 @font-face {
@@ -49,13 +50,15 @@
   font-size: 100%;
   vertical-align: baseline;
 
-  border: 0;
+  border: none;
 }
 
 /* General styles */
 
 body {
   width: 1440px;
+
+  overflow-x: hidden;
 
   color: var(--dark);
   font: 16px/1.6em "Open Sans", sans-serif;
@@ -109,7 +112,7 @@ h3 {
   left: 0;
   z-index: -1;
 
-  width: 1441px;
+  width: 1440px;
   height: 960px;
 
   background-image: url("../../images/background.png");
@@ -149,7 +152,6 @@ h3 {
   text-transform: uppercase;
 
   background-color: var(--base);
-  border: none;
 }
 
 .button-link {
@@ -186,4 +188,50 @@ h3 {
 
 .header-btn {
   margin: 16px 0 0 565px;
+}
+
+/* define-problem */
+
+.define-problem {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 914px;
+  padding: 100px 0;
+}
+
+.define-problem-title {
+  margin: 6px 0 25px;
+
+  text-align: center;
+}
+
+.subtitle-define-problem {
+  margin-bottom: 30px;
+
+  color: var(--blackblur);
+  text-align: center;
+}
+
+.video {
+  width: 919px;
+  height: 569px;
+
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.define-problem::after {
+  position: absolute;
+  bottom: 200px;
+  left: 0;
+  z-index: -2;
+
+  width: 1440px;
+  height: 110px;
+
+  background-color: var(--basedark);
+
+  content: "";
 }
