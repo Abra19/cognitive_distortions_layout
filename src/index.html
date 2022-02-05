@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header class="main-header section-bkgr">
+    <header class="main-header section-bkgr section-bkgr-light">
         <div class="container">
             <h1 class="section-title color-base header-title">Когнитивные<br>искажения<br><span class="color-dark">в программировании</span></h1>
             <img src="../images/main.png" alt="Программист за работой" class="header-img" height="560">
@@ -30,7 +30,7 @@
                 </p>
             </div>
             <button class="btn header-btn">
-                <a href="#five-distortion" class="button-link">подробнее</a>
+                <a href="#five-distortion" class="color-white">подробнее</a>
             </button>
         </div>
     </header>
@@ -43,22 +43,80 @@
             <iframe class="video" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" allowfullscreen>
             </iframe>
         </section>
-        <section class="named-problems container" id="five-distortion">
-            
+        <section class="named-problems" id="five-distortion">
+            <nav class="container">
+                <div class="navigation">
+                    <div class="card-title card-item">
+                        <p class="card-title-text color-base">
+                            5 когнитивных искажений<br><span class="color-white">о существовании
+                            которых стоит помнить</span>
+                        </p>
+                    </div>
+                    <div class="card-item card-link">
+                        <a href="#ikea-effect" class="card-item-content">
+                            <p class="card-number">1</p>
+                            <p class="card-text color-base">Эффект ИКЕА</p>
+                            <p class="card-description">
+                                Вы переоцениваете собственные решения, и, как следствие,
+                                недооцениваете решения других.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="card-item card-link">
+                        <a href="#problem-optimisation" class="card-item-content">
+                            <p class="card-number">2</p>
+                            <p class="card-text color-base">Преждевременная оптимизация</p>
+                            <p class="card-description">
+                                Вы оптимизируете что-то задолго до того, как в этом появляется
+                                необходимость.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="card-item card-link">
+                        <a href="#curved-new" class="card-item-content">
+                            <p class="card-number">3</p>
+                            <p class="card-text color-base">Искажение новизны</p>
+                            <p class="card-description">
+                                Вы даёте более высокую оценку тем событиям, которые произошли недавно,
+                                и недооцениваете более старые.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="card-item card-link">
+                        <a href="#problem-depreciation" class="card-item-content">
+                            <p class="card-number">4</p>
+                            <p class="card-text color-base">Гиперболическое обесценивание</p>
+                            <p class="card-description">
+                                Вы гонитесь за немедленной маленькой выгодой и игнорируете более
+                                крупную, недоступную сейчас, но доступную в будущем.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="card-item card-link">
+                        <a href="#problem-planing" class="card-item-content">
+                            <p class="card-number">5</p>
+                            <p class="card-text color-base">Ошибка планирования</p>
+                            <p class="card-description">
+                                Неправильно рассчитывать время необходимое для завершения задачи.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </nav>
         </section>
-        <section class="sample-problem-ikea container">
+        <section class="sample-problem-ikea container section-bkgr section-bkgr-light" id="ikea-effect">
             <h2 class="section-title color-dark">Эффект ИКЕА</h2>
         </section>
-        <section class="sample-problem-optimisation container">
+        <section class="sample-problem-optimisation container section-bkgr section-bkgr-dark" id="problem-optimisation">
             <h2 class="section-title color-white">Преждевременная оптимизация</h2>
         </section>
-        <section class="sample-problem-curved-new container">
+        <section class="sample-problem-curved-new container section-bkgr section-bkgr-light" id="curved-new">
             <h2 class="section-title color-dark">Искажение новизны</h2>
         </section>
-        <section class="sample-problem-depreciation container">
+        <section class="sample-problem-depreciation container section-bkgr section-bkgr-dark" id="problem-depreciation">
             <h2 class="section-title color-white">Гиперболическое обесценивание</h2>
         </section>
-        <section class="sample-problem-planing-defects container">
+        <section class="sample-problem-planing-defects container section-bkgr section-bkgr-light" id="problem-planing">
             <h2 class="section-title color-dark">Ошибка планирования</h2>
         </section>
     </main>
