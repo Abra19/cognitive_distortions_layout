@@ -54,10 +54,6 @@
   border: none;
 }
 
-ul {
-  list-style: none;
-}
-
 a {
   text-decoration: none;
 }
@@ -93,6 +89,14 @@ body {
   color: var(--white);
 }
 
+h1,
+h2,
+h3 {
+  color: var(--base);
+  font-family: Neucha, cursive;
+  line-height: 1.2em;
+}
+
 h1 {
   font-size: 72px;
 }
@@ -103,11 +107,6 @@ h2 {
 
 h3 {
   font-size: 34px;
-}
-
-.section-title {
-  font-family: Neucha, cursive;
-  line-height: 1.2em;
 }
 
 .section-bkgr,
@@ -188,17 +187,20 @@ h3 {
 }
 
 .cognitive-distortion {
-  padding: 5px 0 0 2px;
-
-  color: var(--darkblur);
-
+  padding-top: 3px;
   font: 24px/1.2em Neucha, cursive;
+}
+
+.cognitive-dark {
+  color: var(--darkblur);
+}
+
+.cognitive-white {
+  color: var(--whiteblur);
 }
 
 .distortion-description {
   padding: 28px 0 0 2px;
-
-  color: var(--dark);
 
   font: 34px/1.2em Neucha, cursive;
 }
@@ -211,7 +213,7 @@ h3 {
 
 .middle-title {
   margin: 100px 0 20px;
-  padding: 6px 0 4px 10px;
+  padding: 5px 0 4px 10px;
 
   font-weight: 700;
   font-size: 14px;
@@ -309,18 +311,17 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 82px;
+  margin-top: 83px;
 }
 
 .card-title-text {
-  padding-top: 4px;
-
   font: 52px/1.2em Neucha, cursive;
 }
 
 .card-item {
   width: 350px;
   margin-top: 20px;
+  padding-top: 2px;
 }
 
 .card-link {
@@ -328,7 +329,7 @@ h3 {
   flex-direction: column;
   justify-content: space-between;
 
-  padding: 24px;
+  padding: 28px 24px 22px;
 
   background-color: var(--light);
 }
@@ -358,11 +359,11 @@ h3 {
   color: var(--white);
 }
 
-/* ikea */
+/* effects */
 
-.ikea-text {
+.effects-text {
   height: 130px;
-  margin-left: 2px;
+  margin-top: 5px;
 }
 
 .first-paragraph {
