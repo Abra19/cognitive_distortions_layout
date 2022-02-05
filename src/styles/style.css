@@ -156,8 +156,20 @@ h3 {
 }
 
 .text-container {
-  column-count: 2;
-  column-gap: 30px;
+  display: flex;
+  flex-direction: flex-start;
+}
+
+.text-element {
+  flex: 1;
+}
+
+.text-element:first-of-type {
+  margin-right: 30px;
+}
+
+.text-element p:first-of-type {
+  margin-bottom: 15px;
 }
 
 .btn {
@@ -188,6 +200,7 @@ h3 {
 
 .cognitive-distortion {
   padding-top: 3px;
+
   font: 24px/1.2em Neucha, cursive;
 }
 
@@ -357,15 +370,4 @@ h3 {
 
 .card-link:hover > a > p {
   color: var(--white);
-}
-
-/* effects */
-
-.effects-text {
-  height: 130px;
-  margin-top: 5px;
-}
-
-.first-paragraph {
-  margin-bottom: 5px;
 }
