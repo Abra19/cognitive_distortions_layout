@@ -69,6 +69,8 @@ body {
   font: 16px/1.6em "Open Sans", sans-serif;
 }
 
+/* centered */
+
 .container {
   position: relative;
 
@@ -76,6 +78,8 @@ body {
   margin: 0 auto;
   padding: 100px 0;
 }
+
+/* colors */
 
 .color-base {
   color: var(--base);
@@ -88,6 +92,8 @@ body {
 .color-white {
   color: var(--white);
 }
+
+/* title */
 
 h1,
 h2,
@@ -108,6 +114,8 @@ h2 {
 h3 {
   font-size: 34px;
 }
+
+/* background */
 
 .section-bkgr,
 .section-bkgr-light,
@@ -155,22 +163,7 @@ h3 {
   background-color: var(--brown);
 }
 
-.text-container {
-  display: flex;
-  flex-direction: flex-start;
-}
-
-.text-element {
-  flex: 1;
-}
-
-.text-element:first-of-type {
-  margin-right: 30px;
-}
-
-.text-element p:first-of-type {
-  margin-bottom: 15px;
-}
+/* buttons */
 
 .btn {
   padding: 12px 24px;
@@ -187,6 +180,8 @@ h3 {
   background-color: var(--btnhover);
 }
 
+/* sections decorations */
+
 .section-header {
   display: flex;
   align-items: flex-start;
@@ -196,6 +191,10 @@ h3 {
 
 .section-element:first-child {
   margin-right: 30px;
+}
+
+.last-container {
+  padding-bottom: 15px;
 }
 
 .cognitive-distortion {
@@ -247,6 +246,25 @@ h3 {
   background-color: var(--white);
 }
 
+/* text container for two column */
+
+.text-container {
+  display: flex;
+  flex-direction: flex-start;
+}
+
+.text-element {
+  flex: 1;
+}
+
+.text-element:first-of-type {
+  margin-right: 30px;
+}
+
+.text-element p:first-of-type {
+  margin-bottom: 15px;
+}
+
 /* header styles */
 .header-img {
   position: absolute;
@@ -278,7 +296,7 @@ h3 {
   margin: 16px 0 0 570px;
 }
 
-/* define-problem */
+/* section with video */
 
 .define-problem {
   position: relative;
