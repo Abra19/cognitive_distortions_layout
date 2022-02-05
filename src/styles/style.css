@@ -176,6 +176,62 @@ h3 {
   background-color: var(--btnhover);
 }
 
+.section-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.section-element:first-child {
+  margin-right: 30px;
+}
+
+.cognitive-distortion {
+  padding: 5px 0 0 2px;
+
+  color: var(--darkblur);
+
+  font: 24px/1.2em Neucha, cursive;
+}
+
+.distortion-description {
+  padding: 28px 0 0 2px;
+
+  color: var(--dark);
+
+  font: 34px/1.2em Neucha, cursive;
+}
+
+.img-section {
+  vertical-align: middle;
+
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.middle-title {
+  margin: 100px 0 20px;
+  padding: 6px 0 4px 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2em;
+
+  text-transform: uppercase;
+}
+
+.middle-title-dark {
+  color: var(--white);
+
+  background-color: var(--brown);
+}
+
+.middle-title-white {
+  color: var(--brown);
+
+  background-color: var(--white);
+}
+
 /* header styles */
 .header-img {
   position: absolute;
@@ -300,4 +356,15 @@ h3 {
 
 .card-link:hover > a > p {
   color: var(--white);
+}
+
+/* ikea */
+
+.ikea-text {
+  height: 130px;
+  margin-left: 2px;
+}
+
+.first-paragraph {
+  margin-bottom: 5px;
 }
