@@ -18,27 +18,27 @@
   font-weight: 400;
   font-family: "Open Sans";
   src:
-    url("../../assets/fonts/OpenSans/OpenSans-Regular.ttf") format("opentype"),
-    url("../../assets/fonts/OpenSans/OpenSans-Regular.woff") format("woff"),
-    url("../../assets/fonts/OpenSans/OpenSans-Regular.woff2") format("woff2");
+    url("../assets/fonts/OpenSans/OpenSans-Regular.ttf") format("opentype"),
+    url("../assets/fonts/OpenSans/OpenSans-Regular.woff") format("woff"),
+    url("../assets/fonts/OpenSans/OpenSans-Regular.woff2") format("woff2");
 }
 
 @font-face {
   font-weight: 700;
   font-family: "Open Sans";
   src:
-    url("../../assets/fonts/OpenSans/OpenSans-Bold.ttf") format("opentype"),
-    url("../../assets/fonts/OpenSans/OpenSans-Bold.woff") format("woff"),
-    url("../../assets/fonts/OpenSans/OpenSans-Bold.woff2") format("woff2");
+    url("../assets/fonts/OpenSans/OpenSans-Bold.ttf") format("opentype"),
+    url("../assets/fonts/OpenSans/OpenSans-Bold.woff") format("woff"),
+    url("../assets/fonts/OpenSans/OpenSans-Bold.woff2") format("woff2");
 }
 
 @font-face {
   font-weight: 400;
   font-family: Neucha;
   src:
-    url("../../assets/fonts/Neucha/Neucha-Regular.ttf") format("opentype"),
-    url("../../assets/fonts/Neucha/Neucha-regular.woff") format("woff"),
-    url("../../assets/fonts/Neucha/Neucha-Regular.woff2") format("woff2");
+    url("../assets/fonts/Neucha/Neucha-Regular.ttf") format("opentype"),
+    url("../assets/fonts/Neucha/Neucha-regular.woff") format("woff"),
+    url("../assets/fonts/Neucha/Neucha-Regular.woff2") format("woff2");
 }
 
 /** GENERAL **/
