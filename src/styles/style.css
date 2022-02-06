@@ -56,6 +56,16 @@
   border: none;
 }
 
+/*** return some general styles */
+
+ul {
+  margin: 13px 0 13px 35px;
+}
+
+p {
+  margin-bottom: 18px;
+}
+
 /* General styles */
 
 body {
@@ -84,10 +94,6 @@ body {
 
 .section-padding {
   padding: 100px 0;
-}
-
-.section-margin {
-  margin: 100px 0;
 }
 
 /* colors */
@@ -309,7 +315,7 @@ h3 {
   margin-right: 30px;
 }
 
-.text-element p:first-of-type {
+.text-element div:first-of-type {
   margin-bottom: 15px;
 }
 
@@ -434,7 +440,7 @@ h3 {
   background-color: var(--base);
 }
 
-.card-link:hover > a > p {
+.card-link:hover > a > div {
   color: var(--white);
 }
 
